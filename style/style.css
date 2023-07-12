@@ -1,0 +1,1160 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #404040;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.herosection{
+    background-image: url(../media/james-barr-zy5JTdcC0fE-unsplash\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+    width: 100%;
+}
+
+.max-width{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0px auto;
+
+}
+.navicon{
+    display: none;
+}
+
+.navigation-bar{
+    padding-top: 33px;
+
+}
+
+.navigation_bar_hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navigation_bar_hero li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+.navigation_bar_hero a {
+    height: 12px;
+    font-size:16px;
+    font-weight: 400px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #404040;
+}
+
+.amusan_profile{
+    padding-top: 136px;
+    
+}
+
+.amusan{
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    color: #404040;
+    
+
+}
+
+.profile{
+    width: 467px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #404040;
+    padding-top: 24px;
+}
+
+.button_hire{
+    padding-top: 32px;
+    
+}
+
+.button{
+    background-color: transparent;
+    height: 74px;
+    width: 189px;
+    
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.socialmedia a{
+    padding-top: 29.5px;
+}
+/* media quarier for hero section*/
+@media screen and (max-width: 500px){
+    .herosection{
+        background-color: blue;
+        background-image: url(../media/james-barr-zy5JTdcC0fE-unsplash\ 2.png);
+        height: 896px;
+        width: 100%;
+    }
+    .navigation-bar {
+        display: none;
+    }
+
+    .navicon{
+        display: flex;
+        padding: 37px 0px 0px 20px;
+    }
+    .amusan_profile{
+        padding: 391px 0px 0px 37px ;
+    }
+    .amusan{
+        color: #F2F2F2;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+    }
+    .profile{
+        width: 284px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        color: #F2F2F2;
+    }
+    .button_hire{
+        padding-left: 37px;
+    }
+    .socialmedia{
+    display: none;
+    }
+} 
+
+@media screen and (min-width: 500px) and (max-width: 650px){
+    .herosection{
+        background-color: blue;
+        background-image: url(../media/james-barr-zy5JTdcC0fE-unsplash\ 2.png);
+        height: 796px;
+        width: 100%;
+    }
+    .navigation-bar {
+        display: none;
+    }
+
+    .navicon{
+        display: flex;
+        padding: 37px 0px 0px 30px;
+    }
+    .amusan_profile{
+        padding: 391px 0px 0px 50px ;
+    }
+    .amusan{
+        color: #F2F2F2;
+        font-family: Lato;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 29px;
+    }
+    .profile{
+        width: 380px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        color: #F2F2F2;
+    }
+    .button_hire{
+        padding-left: 50px;
+    }
+    .socialmedia{
+    display: none;
+    }
+} 
+
+@media screen and (min-width: 650px) and (max-width: 760px){
+    .herosection{
+        background-color: blue;
+        background-image: url(../media/james-barr-zy5JTdcC0fE-unsplash\ 2.png);
+        height: 796px;
+        width: 100%;
+    }
+    .navigation-bar {
+        display: none;
+    }
+
+    .navicon{
+        display: flex;
+        padding: 37px 0px 0px 30px;
+    }
+    .amusan_profile{
+        padding: 391px 0px 0px 50px ;
+    }
+    .amusan{
+        color: #F2F2F2;
+        font-family: Lato;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 29px;
+    }
+    .profile{
+        width: 380px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        color: #F2F2F2;
+    }
+    .button_hire{
+        padding-left: 50px;
+    }
+    .socialmedia{
+    display: none;
+    }
+} 
+/*section two start here*/
+
+.section-2{
+   padding-top: 69px;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us-background {
+    height: 636.7791748046875px;
+    width: 505px;
+    background-image: url(../media/About\ us.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-me-container {
+    margin-left: 20px;
+}
+
+.about{
+    padding: 17px 0px 38px 0px;
+    font-family: 'Lato';
+    color: #404040;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+}
+                                    
+.paul{
+    width: 715px;
+    color: #404040;
+    padding: 0px 0px 60px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.paul p {
+    margin-bottom: 25px;
+}
+
+.about-me-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 500px){
+
+    .section-2{
+        padding: 48px 20px 0px 20px;
+     }
+
+     .about-me-mobile {
+        display: flex;
+        padding: 0px 0px 32px 0px;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 21px;
+    }
+
+    .about-us-background{
+        height: 203px;
+        width: 111px;  
+    }
+
+    .about {
+        display: none;
+    }
+
+    .paul{
+        width: 243px;
+    }
+
+    .paul p {
+        font-size: 9px;
+        line-height: 14px;
+        letter-spacing: 0em;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 650px){
+
+    .section-2{
+        padding: 48px 30px 0px 30px;
+    }
+    
+    .about-me-mobile {
+        display: flex;
+        padding: 0px 0px 32px 0px;
+        justify-content: center;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 21px;
+    }
+    
+    .about-us-background{
+        height: 240px;
+        width: 150px; 
+        margin-left: 20px; 
+    }
+    
+    .about {
+        display: none;
+    }
+    
+    .paul{
+        width: 300px;
+    }
+    
+    .paul p {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0em;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 760px){
+
+    .section-2{
+        padding: 48px 30px 0px 30px;
+    }
+    
+    .about-me-mobile {
+        display: flex;
+        padding: 0px 0px 32px 0px;
+        justify-content: center;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 21px;
+    }
+    
+    .about-us-background{
+        height: 300px;
+        width: 250px; 
+        margin-left: 20px; 
+    }
+    
+    .about {
+        display: none;
+    }
+    
+    .paul{
+        width: 330px;
+    }
+    
+    .paul p {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0em;
+    }
+}
+
+
+/*section 3 start here*/
+.section-gallery{
+    color: #404040;
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.have-a-look-at {
+    color: #404040;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.section-3-image-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.flex-image {
+    background-image: url(../media/daniel-schaffer-l8XuuamEfYU-unsplash\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 400px;
+}
+
+.flex-image-1 {
+    background-image: url(../media/joanna-nix-walkup-IRi-FlOdjFU-unsplash\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 400px;
+}
+
+.flex-image-2 {
+    background-image: url(../media/nick-karvounis-0lzxrijewmY-unsplash\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 400px;
+}
+
+.flex-image-3 {
+    background-image: url(../media/analise-benevides-Y9O5u1kwdbk-unsplash\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 400px;
+}
+
+.flex-image-4 {
+    background-image: url(../media/peter-sjo-Nxy-6QwGMzA-unsplash\ 1.png); 
+    height: 600px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex-image-5 {
+    background-image: url(../media/hls-44-oCwkft-Juug-unsplash\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 400px;
+}
+
+.button-gallery {
+    margin-top: 20px;
+}
+
+.section-view-all-for-gallery { 
+    text-align: center;
+}
+
+.gallery-button {
+    color: #404040;
+    text-align: center;
+    height: 74px;
+    width: 189px;
+    border: 1px solid;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+}
+.Gallery-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 500px){
+    .Gallery-mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .section-gallery{
+        text-align: center;
+        color: rgba(64, 64, 64, 1);
+        font-size: 20px ;
+        font-weight: 700px;
+        line-height: 21px;
+        letter-spacing: 0em;
+    }
+
+    .have-a-look-at {
+        text-align: center;
+        color: rgba(64, 64, 64, 1);
+        font-weight: 400px;
+        font-size: 10px;
+        line-height: 21px;
+        letter-spacing: 0em;
+    }
+
+    
+    .img-mobile {
+        background-image: url(../media/daniel-schaffer-l8XuuamEfYU-unsplash\ 1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 363px;
+        width: 242px;
+        animation-name: sliding;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes sliding {
+        0% {background-image:url(../media/daniel-schaffer-l8XuuamEfYU-unsplash\ 1.png)}
+        20%{ background-image: url(../media/joanna-nix-walkup-IRi-FlOdjFU-unsplash\ 1.png)}
+        40%{ background-image: url(../media/nick-karvounis-0lzxrijewmY-unsplash\ 1.png)}
+        60%{background-image: url(../media/analise-benevides-Y9O5u1kwdbk-unsplash\ 1.png)}
+        80%{background-image: url(../media/peter-sjo-Nxy-6QwGMzA-unsplash\ 1.png)}
+        100%{background-image: url(../media/hls-44-oCwkft-Juug-unsplash\ 1.png);}
+    }
+
+    .greater {
+        height: 17px;
+        width: 10px;
+        align-self: center;
+    }
+
+    .less {
+        height: 17px;
+        width: 10px; 
+        align-self: center;
+    }
+    .section-3-image-gallery {
+        display: none;
+    }
+
+    .gallery-button {
+        color: #404040;
+        text-align: center;
+       padding: 9px 0px;
+        width: 112px;
+        border: 1px solid;
+        font-family: 'Lato';
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+}
+
+@media screen and (min-width: 650px) and (max-width: 760px){
+    .section-3-image-gallery {
+        display: none;
+    }
+    
+    .Gallery-mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .section-gallery{
+        font-size: 25px ;
+    }
+
+    .have-a-look-at {
+        text-align: center;
+        color: rgba(64, 64, 64, 1);
+        font-weight: 400px;
+        font-size: 13px;
+        line-height: 21px;
+        letter-spacing: 0em;
+    }
+
+    
+    .img-mobile {
+        background-image: url(../media/daniel-schaffer-l8XuuamEfYU-unsplash\ 1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 373px;
+        width: 262px;
+        animation-name: sliding;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes sliding {
+        0% {background-image:url(../media/daniel-schaffer-l8XuuamEfYU-unsplash\ 1.png)}
+        20%{ background-image: url(../media/joanna-nix-walkup-IRi-FlOdjFU-unsplash\ 1.png)}
+        40%{ background-image: url(../media/nick-karvounis-0lzxrijewmY-unsplash\ 1.png)}
+        60%{background-image: url(../media/analise-benevides-Y9O5u1kwdbk-unsplash\ 1.png)}
+        80%{background-image: url(../media/peter-sjo-Nxy-6QwGMzA-unsplash\ 1.png)}
+        100%{background-image: url(../media/hls-44-oCwkft-Juug-unsplash\ 1.png);}
+    }
+
+    .greater {
+        height: 17px;
+        width: 10px;
+        align-self: center;
+    }
+
+    .less {
+        height: 17px;
+        width: 10px; 
+        align-self: center;
+    }
+
+    .gallery-button {
+        color: #404040;
+        text-align: center;
+       padding: 9px 0px;
+        width: 130px;
+        border: 1px solid;
+        font-family: 'Lato';
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 650px){
+    .section-3-image-gallery {
+        display: none;
+    }
+    
+    .Gallery-mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .section-gallery{
+        font-size: 25px ;
+    }
+
+    .have-a-look-at {
+        text-align: center;
+        color: rgba(64, 64, 64, 1);
+        font-weight: 400px;
+        font-size: 13px;
+        line-height: 21px;
+        letter-spacing: 0em;
+    }
+
+    
+    .img-mobile {
+        background-image: url(../media/daniel-schaffer-l8XuuamEfYU-unsplash\ 1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 373px;
+        width: 300px;
+        animation-name: sliding;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes sliding {
+        0% {background-image:url(../media/daniel-schaffer-l8XuuamEfYU-unsplash\ 1.png)}
+        20%{ background-image: url(../media/joanna-nix-walkup-IRi-FlOdjFU-unsplash\ 1.png)}
+        40%{ background-image: url(../media/nick-karvounis-0lzxrijewmY-unsplash\ 1.png)}
+        60%{background-image: url(../media/analise-benevides-Y9O5u1kwdbk-unsplash\ 1.png)}
+        80%{background-image: url(../media/peter-sjo-Nxy-6QwGMzA-unsplash\ 1.png)}
+        100%{background-image: url(../media/hls-44-oCwkft-Juug-unsplash\ 1.png);}
+    }
+
+    .greater {
+        height: 17px;
+        width: 10px;
+        align-self: center;
+    }
+
+    .less {
+        height: 17px;
+        width: 10px; 
+        align-self: center;
+    }
+
+    .gallery-button {
+        color: #404040;
+        text-align: center;
+       padding: 9px 0px;
+        width: 130px;
+        border: 1px solid;
+        font-family: 'Lato';
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+/*section 4 start here*/
+.our-client {
+    padding-top: 75px;
+    text-align: center;
+    font-family: 'Lato';
+   
+}
+
+.our-client-text{
+    font-size: 32px;
+    font-weight: 700px;
+    line-height: 21px;
+    margin-bottom: 16px;
+
+
+}
+
+.built-my-reputation {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400px;    
+}
+
+.flex-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.group-logo {
+    background-image: url(../media/Group.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 48px;
+    height: 102px;
+    width: 293.7197265625px;
+}
+
+.group-logo-2 {
+    background-image: url(../media/g3846.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 48px;
+    height: 74.99988555908203px;
+    width: 293.20037841796875px;
+}
+
+.group-logo-3 {
+    background-image: url(../media/Group\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 48px;
+    height: 123.90000915527344px;
+    width: 295px;
+}
+
+@media screen and (max-width: 500px){
+    .our-client-text{
+        font-family: "Lato";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .built-my-reputation{
+        font-family: "Lato";
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .group-logo{
+        height: 38.199684143066406px;
+        width: 109.99993896484375px;
+        top: 2029px;
+        margin-left: 20px;
+    }
+    .group-logo-2{
+        height: 28.00006675720215px;
+        width: 109.46163940429688px;
+        top: 2034px;
+    }
+    .group-logo-3{
+        height: 42.3000373840332px;
+        width: 100.7142333984375px;
+        top: 2027px;
+        margin-right: 20px;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 650px){
+    .our-client-text{
+        font-family: "Lato";
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .built-my-reputation{
+        font-family: "Lato";
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .group-logo{
+        height: 38.199684143066406px;
+        width: 109.99993896484375px;
+        top: 2029px;
+        margin-left: 25px;
+    }
+    .group-logo-2{
+        height: 28.00006675720215px;
+        width: 109.46163940429688px;
+        top: 2034px;
+    }
+    .group-logo-3{
+        height: 42.3000373840332px;
+        width: 100.7142333984375px;
+        top: 2027px;
+        margin-right: 25px;
+    }
+
+}
+
+@media screen and (min-width: 650px) and (max-width: 760px){
+    .our-client-text{
+        font-family: "Lato";
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .built-my-reputation{
+        font-family: "Lato";
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .group-logo{
+        height: 38.199684143066406px;
+        width: 109.99993896484375px;
+        top: 2029px;
+        margin-left: 35px;
+    }
+    .group-logo-2{
+        height: 28.00006675720215px;
+        width: 109.46163940429688px;
+        top: 2034px;
+    }
+    .group-logo-3{
+        height: 42.3000373840332px;
+        width: 100.7142333984375px;
+        top: 2027px;
+        margin-right: 35px;
+    }
+}
+
+/*section 5 start here*/
+.section-form-flex{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-form-flex-one{
+    width: 505px;
+    height: 637px;
+    background-image: url(../media/About\ us.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-form-flex-two{
+    width: 605px;
+    margin-top: 52px;
+}
+
+.section-form-flex-two-form-input{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-form-flex-two-form-input span{
+    color: #404040;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 21px;
+}
+
+.section-form-flex-two-form-input input{
+    width: 505px;
+    height: 60px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #404040;
+}
+
+.section-form-flex-two-form-input textarea{
+    width: 505px;
+    height: 228px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #404040;
+}
+
+.section-form-flex-two button{
+    background-color: transparent;
+    margin-left: 100px;
+    padding: 19px 91px;
+    color: #404040;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    border: 1px solid #404040;
+}
+
+.footer{
+    margin-top: 44px;
+    padding: 10px 0px 38px 0px;
+}
+
+.footer-group{
+    text-align: center;
+}
+
+.footer-group-copyright{
+    margin-bottom: 13px;
+    color: #404040;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-group-icon{
+    width: 142px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .section-form-flex {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-form-flex-one{
+        display: none;
+    }
+
+    .section-form-flex-two{
+        width: 374px;
+        margin: 16px auto;
+    }
+
+    .section-form-flex-two-form-input{
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-form-flex-two-form-input span{
+        align-self: flex-start;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+.section-form-flex-two-form-input input{
+    width: 374px;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #404040;
+    align-self: flex-start;
+}
+
+.section-form-flex-two-form-input textarea{
+    width: 374px;
+    height: 141px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #404040;
+}
+
+.section-form-flex-two button{
+    background-color: transparent;
+    margin-left: 0px;
+    padding: 19px 91px;
+    color: #404040;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    border: 1px solid #404040;
+}
+}
+
+@media screen and (min-width: 500px) and (max-width: 650px){
+    .section-form-flex {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-form-flex-one{
+        display: none;
+    }
+
+    .section-form-flex-two{
+        width: 374px;
+        margin: 16px auto;
+    }
+
+    .section-form-flex-two-form-input{
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-form-flex-two-form-input span{
+        align-self: flex-start;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+.section-form-flex-two-form-input input{
+    width: 374px;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #404040;
+    align-self: flex-start;
+}
+
+.section-form-flex-two-form-input textarea{
+    width: 374px;
+    height: 141px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #404040;
+}
+
+.section-form-flex-two button{
+    background-color: transparent;
+    margin-left: 0px;
+    padding: 19px 91px;
+    color: #404040;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    border: 1px solid #404040;
+}
+}
+
+@media screen and (min-width: 650px) and (max-width: 760px){
+    .section-form-flex {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-form-flex-one{
+        display: none;
+    }
+
+    .section-form-flex-two{
+        width: 380px;
+        margin: 18px auto;
+    }
+
+    .section-form-flex-two-form-input{
+        margin-bottom: 45px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-form-flex-two-form-input span{
+        align-self: flex-start;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    .section-form-flex-two-form-input input{
+        width: 374px;
+        height: 40px;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #404040;
+        align-self: flex-start;
+    }
+    
+    .section-form-flex-two-form-input textarea{
+        width: 374px;
+        height: 141px;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #404040;
+    }
+    
+    .section-form-flex-two button{
+        background-color: transparent;
+        margin-left: 0px;
+        padding: 19px 91px;
+        color: #404040;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        border: 1px solid #404040;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
